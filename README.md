@@ -1,6 +1,8 @@
 # htop in a box
 This is a container running [htop] inside [shellinabox].
 
+htop is run as `nobody` which means it can only view processes, but not kill them.
+
 [htop]: http://hisham.hm/htop/
 [shellinabox]: https://github.com/shellinabox/shellinabox
 
